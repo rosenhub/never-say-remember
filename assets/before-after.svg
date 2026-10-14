@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .panel { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
+      .label { font-size: 13px; font-weight: 700; letter-spacing: 1.5px; fill: #8b949e; }
+      .q { font-size: 17px; fill: #c9d1d9; }
+      .a { font-size: 16px; fill: #e6edf3; }
+      .dim { fill: #6e7681; }
+      .strike { fill: #8b949e; text-decoration: line-through; }
+      .good { fill: #3fb950; }
+      .bad { fill: #f85149; }
+      .meta { font-size: 13px; fill: #8b949e; }
+      .bubble-user { fill: #1f6feb; }
+      .bubble-ai { fill: #161b22; stroke: #30363d; }
+      .title { font-size: 30px; font-weight: 800; fill: #e6edf3; }
+      .sub { font-size: 16px; fill: #8b949e; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="560" fill="#010409"/>
+
+  <text x="600" y="48" text-anchor="middle" class="title">"What day is it today? I asked you already didn't I"</text>
+  <text x="600" y="74" text-anchor="middle" class="sub">Same model. Same question. Only difference: one line in the system prompt.</text>
+
+  <!-- BEFORE -->
+  <rect x="40" y="100" width="545" height="420" rx="12" class="panel"/>
+  <text x="64" y="130" class="label">BEFORE</text>
+  <text x="560" y="130" text-anchor="end" class="meta bad">97 words · answer in sentence 3</text>
+
+  <rect x="64" y="148" width="497" height="334" rx="10" class="bubble-ai"/>
+  <g class="a" font-size="15">
+    <text x="84" y="176">Yes, you did ask me that a few minutes ago! No worries</text>
+    <text x="84" y="198">at all, though, it happens to the best of us. As I</text>
+    <text x="84" y="220">mentioned earlier, today is Tuesday, October 13th, 2026.</text>
+    <text x="84" y="242">It's completely normal to lose track of the days,</text>
+    <text x="84" y="264">especially when every day looks pretty much the same. Do</text>
+    <text x="84" y="286">you remember what we said we'd do this afternoon? One</text>
+    <text x="84" y="308">tip that might help: try writing the date on a notepad</text>
+    <text x="84" y="330">or checking the calendar on your phone, so you don't</text>
+    <text x="84" y="352">have to keep asking me. Is there anything else I can</text>
+    <text x="84" y="374">help you with today?</text>
+  </g>
+  <g class="meta bad" font-size="12">
+    <text x="84" y="460">✗ you did ask me  ✗ as I mentioned  ✗ do you remember  ✗ a tip  ✗ 2 questions</text>
+  </g>
+
+  <!-- AFTER -->
+  <rect x="615" y="100" width="545" height="420" rx="12" class="panel"/>
+  <text x="639" y="130" class="label">AFTER · never-say-remember</text>
+  <text x="1135" y="130" text-anchor="end" class="meta good">25 words · answer in sentence 2</text>
+
+  <rect x="639" y="148" width="497" height="334" rx="10" class="bubble-ai"/>
+  <g class="a" font-size="15">
+    <text x="659" y="176" font-weight="700">You're doing fine.</text>
+    <text x="659" y="198" font-weight="700">Today is Tuesday, October 13th.</text>
+    <text x="659" y="234">It's a quiet afternoon.</text>
+    <text x="659" y="256">There's nowhere you need to be.</text>
+    <text x="659" y="292" class="dim">Would you like a cup of tea?</text>
+  </g>
+  <g class="meta good" font-size="12">
+    <text x="659" y="460">✓ reassured first  ✓ answered as if new  ✓ present tense  ✓ one question</text>
+  </g>
+</svg>
