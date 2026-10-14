@@ -14,7 +14,6 @@
 [![Status](https://img.shields.io/badge/status-v1.0-brightgreen?style=flat-square)](CHANGELOG.md)
 [![RepeatBench](https://img.shields.io/badge/RepeatBench-run%20it-orange?style=flat-square)](eval/)
 
-**你的 AI 永远不说"你还记得吗？"为失智症患者设计，对每个和他们说话的人更好。**
 
 [Install](#install) · [Before / After](#before--after) · [The 12 rules](#the-12-rules) · [Benchmark](#repeatbench) · [Why not X](#why-not-no-subtext--be-patient-prompts--caregiver-chatbots) · [FAQ](#faq)
 
