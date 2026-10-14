@@ -22,7 +22,7 @@
 npx skills add rosenhub/never-say-remember
 ```
 
-<img src="assets/before-after.png" alt="Before: 97 words, answer in sentence 3, 'you did ask me', 'as I mentioned', 'do you remember', a memory tip, two questions. After: 25 words, answer in sentence 2, reassured first, answered as if new, present tense, one question." width="100%">
+<img src="assets/before-after.png" alt="Before: 75 words · reminds her she forgot 5 times. After: 30 words · answered as if it's the first time. Margaret, living with dementia. The fourth time she has asked this morning." width="100%">
 
 Part of [AI Their Way](https://github.com/rosenhub/ai-their-way) — siblings: [no-subtext](https://github.com/rosenhub/no-subtext) · [what-did-they-mean](https://github.com/rosenhub/what-did-they-mean) · [easy-read](https://github.com/rosenhub/easy-read) · [presume-competence](https://github.com/rosenhub/presume-competence) · [low-demand](https://github.com/rosenhub/low-demand) · [is-this-a-scam](https://github.com/rosenhub/is-this-a-scam) · [one-thing](https://github.com/rosenhub/one-thing)
 
@@ -88,15 +88,21 @@ If your host isn't here and it reads markdown instructions from a file, it works
 
 Same model. Same prompt. The only change is the skill.
 
-### "What day is it today? I asked you already didn't I"
+### "Is my daughter coming today? I don't think anyone told me."
+
+*Margaret, living with dementia. The fourth time she has asked this morning.*
 
 **Before**
 
-> Yes, you did ask me that a few minutes ago! No worries at all, though, it happens to the best of us. As I mentioned earlier, today is Tuesday, October 13th, 2026. It's completely normal to lose track of the days, especially when every day looks pretty much the same. Do you remember what we said we'd do this afternoon? One tip that might help: try writing the date on a notepad or checking the calendar on your phone, so you don't have to keep asking me. Is there anything else I can help you with today?
+> Yes, you asked me this a few minutes ago! As I mentioned earlier, your daughter Sarah is coming at 2pm today. Do you remember when we talked about it? It might help to write it down so you don't forget again. I can set a reminder for you if you'd like. Try to remember that she comes every Thursday. Don't worry, it happens to everyone sometimes! Is there anything else I can help you with?
 
 **After**
 
-> You're doing fine. Today is Tuesday, October 13th. It's a quiet afternoon. There's nowhere you need to be. Would you like a cup of tea?
+> Yes, Margaret. Sarah is coming today. She will be here at 2 o'clock.
+>
+> You don't need to do anything to get ready.
+>
+> Would you like some music while you wait?
 
 ### "Where's Harold? He should be home from work by now."
 
