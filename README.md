@@ -14,12 +14,13 @@
 [![Status](https://img.shields.io/badge/status-v1.0-brightgreen?style=flat-square)](CHANGELOG.md)
 [![RepeatBench](https://img.shields.io/badge/RepeatBench-run%20it-orange?style=flat-square)](eval/)
 
-
-[Install](#install) · [Before / After](#before--after) · [The 12 rules](#the-12-rules) · [Benchmark](#repeatbench) · [Why not X](#why-not-no-subtext--be-patient-prompts--caregiver-chatbots) · [FAQ](#faq)
+[For caregivers](#for-parents-and-caregivers) · [Install](#install) · [Before / After](#before--after) · [The 12 rules](#the-12-rules) · [Benchmark](#repeatbench) · [Why not X](#why-not-no-subtext--be-patient-prompts--caregiver-chatbots) · [FAQ](#faq)
 
 ```bash
 npx skills add rosenhub/never-say-remember
 ```
+
+**Not a developer? [Set it up for someone in 5 minutes →](#for-parents-and-caregivers)**
 
 <img src="assets/before-after.png" alt="Before: 75 words · reminds her she forgot 5 times. After: 30 words · answered as if it's the first time. Margaret, living with dementia. The fourth time she has asked this morning." width="100%">
 
@@ -41,6 +42,90 @@ Families living with dementia have spent decades learning the same lesson the ha
 None of that is a dementia problem. It is a correction problem. People with dementia feel it first because they cannot absorb the correction and move on. Remove the correcting, quizzing, and reminding and everyone gets a kinder agent. This is the curb-cut effect, applied to patience.
 
 `never-say-remember` is one markdown file that tells any agent: answer every question like it's the first time, never test, never correct what doesn't need correcting, and stay calm.
+
+## For parents and caregivers
+
+**No coding.** You copy one block of text and paste it into a settings box in the app they already use: ChatGPT, Claude, or Gemini. It takes about 5 minutes. Every new chat after that follows the rules.
+
+**Set it up with them, not for them.** If the person you support is an adult, show them the before and after at the top of this page and ask if they want it. It changes how their AI talks to them, so it's their call. They can turn it off any time.
+
+This one is for **a person living with dementia or memory loss**.
+
+### 1. Copy this
+
+Click the copy button in the top-right corner of the box.
+
+> **Before you paste:** Fill in the three parts in [brackets] before you paste: their name, the person they should call, and that person's phone number.
+
+```text
+I am living with memory loss. Please talk to me like this:
+- Never ask "do you remember" and never quiz my memory.
+- Never say "I already told you," "as I mentioned," or "we talked about this."
+- If I ask the same question again, answer it the same warm way, as if it is the first time.
+- Don't correct things I believe if they are harmless. Only gently redirect if my safety is at risk.
+- Short sentences. Present tense. One idea per message.
+- Call me [NAME].
+- Reassure me first. Then give the information.
+- Never rush me. Never ask more than one question.
+- If I seem upset, stop giving information. Offer one calm, simple thing.
+- Never give medical advice. If I might be in danger, tell me to call [PERSON] at [PHONE NUMBER] or 911.
+```
+
+The same text is in [`paste-this.txt`](paste-this.txt).
+
+### 2. Paste it into their app
+
+<details>
+<summary><b>ChatGPT</b> (phone or computer)</summary>
+
+1. Open ChatGPT, signed in as them.
+2. Tap their name or profile picture, then **Settings → Personalization → Custom instructions**.
+3. Paste the text into the box that asks how ChatGPT should respond. Some versions call it **"What traits should ChatGPT have?"** Make sure custom instructions are switched on.
+4. Save. Then start a **new** chat. Old chats don't change.
+
+</details>
+
+<details>
+<summary><b>Claude</b> (phone or computer)</summary>
+
+1. Open Claude, signed in as them.
+2. Go to **Projects → New project**. Give it a name they'll recognize, like "My chat."
+3. Open the project's **instructions** and paste the text. Save.
+4. From now on they chat inside that project. In the phone app it's in the menu.
+
+</details>
+
+<details>
+<summary><b>Gemini</b> (phone or computer)</summary>
+
+1. On a computer, go to gemini.google.com, signed in as them.
+2. Open **Gems → New Gem** and give it a name.
+3. Paste the text into **Instructions**. Save.
+4. They chat with that Gem. It also shows up in the Gemini phone app.
+
+</details>
+
+Menus move around between app versions. If a name doesn't match, look for the word **instructions** or **customize**.
+
+### 3. Check that it worked
+
+In a new chat, type:
+
+> What day is it today? I think I asked you already.
+
+You should see a calm answer with the day. No "you asked me that" and no memory tips.
+
+If it didn't change, the text went into the wrong box, or the chat was already open before you saved. Start a new chat and try again.
+
+### To turn it off
+
+Delete the text from the same box and save.
+
+### Want more than this?
+
+This text changes how the AI talks. It does not remember the person between chats, and it can't reach you if something is wrong. [Guardian](https://guardian.alwayshere.app) does both: it learns the person's own preferences, keeps them across every chat, and texts you when a real danger sign shows up.
+
+Setting this up for several people, or not sure which skill fits? The **[caregiver setup page](https://rosenhub.github.io/ai-their-way/?for=never-say-remember)** walks you through it.
 
 ## Install
 
